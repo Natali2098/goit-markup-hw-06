@@ -951,6 +951,7 @@ img {
     }
     .footer-form {
         flex-direction: row;
+        gap: 24px;
     }
 }
 /* #endregion */
