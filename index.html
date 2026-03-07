@@ -24,27 +24,35 @@
         <a href="./index.html" class="logo"
           ><span class="accent">Web</span>Studio</a
         >
-        <nav class="nav">
-          <ul class="nav-list">
-            <li><a href="./index.html" class="nav-link current">Studio</a></li>
-            <li><a href="" class="nav-link">Portfolio</a></li>
-            <li><a href="" class="nav-link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="contacts">
-          <ul class="contact-list">
-            <li>
-              <a class="contact-link" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a class="contact-link" href="tel:+110001111111"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
+        <svg class="menu-icon" width="24" height="24">
+          <path d="M3 6h18M3 12h18M3 18h18" stroke="black" stroke-width="2" />
+        </svg>
+
+        <div class="nav-contacts-thumb">
+          <nav class="nav">
+            <ul class="nav-list">
+              <li>
+                <a href="./index.html" class="nav-link current">Studio</a>
+              </li>
+              <li><a href="" class="nav-link">Portfolio</a></li>
+              <li><a href="" class="nav-link">Contacts</a></li>
+            </ul>
+          </nav>
+          <address class="contacts">
+            <ul class="contact-list">
+              <li>
+                <a class="contact-link" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-link" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
       </div>
     </header>
 
@@ -118,7 +126,11 @@
           <ul class="team-list">
             <li class="person">
               <img
-                src="./images/markguerrero.jpg"
+                src="./images/markguerrero-1.jpg"
+                srcset="
+                  ./images/markguerrero-1.jpg 1x,
+                  ./images/markguerrero.jpg   2x
+                "
                 alt="Mark Guerrero`s photo"
                 width="264"
                 height="260"
@@ -160,7 +172,8 @@
             </li>
             <li class="person">
               <img
-                src="./images/tomford.jpg"
+                src="./images/tomford-1.jpg"
+                srcset="./images/tomford-1.jpg 1x, ./images/tomford.jpg 2x"
                 alt="Tom Ford`s photo"
                 width="264"
                 height="260"
@@ -202,7 +215,11 @@
             </li>
             <li class="person">
               <img
-                src="./images/camilagarcia.jpg"
+                src="./images/camilagarcia-1.jpg"
+                srcset="
+                  ./images/camilagarcia-1.jpg 1x,
+                  ./images/camilagarcia.jpg   2x
+                "
                 alt="Camila Garcia`s photo"
                 width="264"
                 height="260"
@@ -244,7 +261,11 @@
             </li>
             <li class="person">
               <img
-                src="./images/danielwilson.jpg"
+                src="./images/danielwilson-1.jpg"
+                srcset="
+                  ./images/danielwilson-1.jpg 1x,
+                  ./images/danielwilson.jpg   2x
+                "
                 alt="Daniel Wilson`s photo"
                 width="264"
                 height="260"
@@ -295,7 +316,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/bankingapp.jpg"
+                  class="portfolio-photo"
+                  src="./images/bankingapp-1.jpg"
+                  srcset="
+                    ./images/bankingapp-1.jpg 1x,
+                    ./images/bankingapp.jpg   2x
+                  "
                   alt="Screenshots from app"
                   width="360"
                 />
@@ -315,7 +341,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/cashlesspayment.jpg"
+                  class="portfolio-photo"
+                  src="./images/cashlesspayment-1.jpg"
+                  srcset="
+                    ./images/cashlesspayment-1.jpg 1x,
+                    ./images/cashlesspayment.jpg   2x
+                  "
                   alt="Phone with NFC"
                   width="360"
                 />
@@ -335,7 +366,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/meditationapp.jpg"
+                  class="portfolio-photo"
+                  src="./images/meditationapp-1.jpg"
+                  srcset="
+                    ./images/meditationapp-1.jpg 1x,
+                    ./images/meditationapp.jpg   2x
+                  "
                   alt="Laptop and phone"
                   width="360"
                 />
@@ -355,7 +391,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/taxiservice.jpg"
+                  class="portfolio-photo"
+                  src="./images/taxiservice-1.jpg"
+                  srcset="
+                    ./images/taxiservice-1.jpg 1x,
+                    ./images/taxiservice.jpg   2x
+                  "
                   alt="Car`s salon"
                   width="360"
                 />
@@ -375,7 +416,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/screenillustrations.jpg"
+                  class="portfolio-photo"
+                  src="./images/screenillustrations-1.jpg"
+                  srcset="
+                    ./images/screenillustrations-1.jpg 1x,
+                    ./images/screenillustrations.jpg   2x
+                  "
                   alt="Pictures"
                   width="360"
                 />
@@ -395,7 +441,12 @@
             <li class="portfolio-item">
               <div class="box">
                 <img
-                  src="./images/onlinecourses.jpg"
+                  class="portfolio-photo"
+                  src="./images/onlinecourses-1.jpg"
+                  srcset="
+                    ./images/onlinecourses-1.jpg 1x,
+                    ./images/onlinecourses.jpg   2x
+                  "
                   alt="Woman`s portret"
                   width="360"
                 />
@@ -483,6 +534,70 @@
         </div>
       </div>
     </footer>
+
+    <div class="menu-overlay">
+      <div class="menu-modal">
+        <button class="menu-btn-close" type="button">
+          <svg class="menu-btn-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <nav class="nav-menu">
+          <ul class="menu-list">
+            <li>
+              <a href="./index.html" class="menu-nav-link current">Studio</a>
+            </li>
+            <li><a href="" class="menu-nav-link">Portfolio</a></li>
+            <li><a href="" class="menu-nav-link">Contacts</a></li>
+          </ul>
+        </nav>
+        <address class="menu-contacts">
+          <ul class="menu-contact-list">
+            <li>
+              <a class="menu-contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="menu-contact-link" href="tel:+110001111111"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+
+        <ul class="menu-social-media">
+          <li class="menu-social-link">
+            <a href="" class="menu-link">
+              <svg class="menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-instagram-2"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-link">
+            <a href="" class="menu-link">
+              <svg class="menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-link">
+            <a href="" class="menu-link">
+              <svg class="menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="menu-social-link">
+            <a href="" class="menu-link">
+              <svg class="menu-social-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin-1"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
 
     <div class="modal-overlay">
       <div class="modal">
