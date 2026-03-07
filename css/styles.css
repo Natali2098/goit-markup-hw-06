@@ -89,9 +89,14 @@ img {
 }
 .burger-menu {
     margin-left: auto;
+    border: none;
+    background-color: transparent;
+}
+.icon-menu {
+    fill: #2E2F42;
 }
 
-@media screen and (min-width:768px) and (max-width:1158px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
 .header {
     padding-top: 0;
     padding-bottom: 0;
@@ -303,7 +308,7 @@ img {
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 320px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (max-width: 320px) and (min-resolution: 192dpi) {
     .hero {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
@@ -335,7 +340,7 @@ img {
             margin-bottom: 36px;
         }
 }
-@media (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 768px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -365,7 +370,7 @@ img {
         margin-bottom: 48px; 
     }
 }
-@media (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
+@media (min-width: 1158px) and (min-resolution: 192dpi) {
     .hero {
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
@@ -555,7 +560,7 @@ img {
 .name-job {
     padding: 32px 16px;
 }
-@media screen and (min-width:768px) and (max-width:1158px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
     .our-team {
         align-items: center;
     }
@@ -882,7 +887,7 @@ img {
 .telegramm-icon {
     display: block;
 }
-@media screen and (min-width:768px) and (max-width:1158px) {
+@media screen and (min-width:768px) and (max-width:1157px) {
     .footer-container {
         flex-direction: row;
         flex-wrap: wrap;
@@ -910,6 +915,7 @@ img {
     }
     .footer-form {
         flex-direction: row;
+        gap: 24px;
     }
 }
 
