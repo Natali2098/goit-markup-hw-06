@@ -308,7 +308,7 @@ img {
     flex-direction: column;
     align-items: center;
 }
-@media (max-width: 320px) and (min-resolution: 192dpi) {
+@media (min-resolution: 192dpi) {
     .hero {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
